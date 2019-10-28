@@ -6,7 +6,7 @@
         <div class="logo" :class="{smallLogo:!isOpen}"></div>
         <!-- 导航菜单 -->
         <el-menu
-          default-active="1"
+          default-active="/"
           background-color="#002033"
           text-color="#fff"
           active-text-color="#ffd04b"
@@ -55,15 +55,15 @@
           <el-dropdown class="dropdown" trigger="click">
             <span class="el-dropdown-link">
               <span class="headIcon">
-                <img src="../../assets/Snipaste_2019-10-20_19-57-22.png" alt />
+                <img style="border-radius:50%" src="../../assets/Snipaste_2019-10-20_19-57-22.png" alt />
               </span>
               脸红的思春期
               <i class="el-icon-arrow-down el-icon--right"></i>
             </span>
             <el-dropdown-menu slot="dropdown">
-              <el-dropdown-item>个人信息</el-dropdown-item>
-              <el-dropdown-item>git地址</el-dropdown-item>
-              <el-dropdown-item>退出</el-dropdown-item>
+              <el-dropdown-item icon="el-icon-setting">个人信息</el-dropdown-item>
+              <el-dropdown-item icon="el-icon-share">git地址</el-dropdown-item>
+              <el-dropdown-item icon="el-icon-unlock">退出</el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
         </el-header>
