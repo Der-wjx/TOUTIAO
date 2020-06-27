@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <el-card>
-      <img src="../../assets/logo_index.png" alt />
+      <!-- <img src="../../assets/logo_index.png" alt /> -->
       <el-form :model="LoginForm" :rules="LoginRules" status-icon ref="loginform">
         <el-form-item prop="mobile">
           <!-- 表单元素 -->
